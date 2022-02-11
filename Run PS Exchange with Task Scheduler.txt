@@ -1,0 +1,4 @@
+Run a PowerShell Exchange Script in Task Scheduler:
+
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+-PSConsoleFile "D:\Program Files\Microsoft\Exchange Server\bin\exshell.psc1" -command ". 'C:\Source\Scripts\tmcseng_cleanup.ps1'"
